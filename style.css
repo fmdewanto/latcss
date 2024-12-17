@@ -1,0 +1,95 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+header{
+  padding: 0;
+  margin: 0;
+}
+h1{
+    /* background-color:aqua; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(2, 2, 34);
+    text-shadow: 2px 2px red;
+    margin: auto;
+}
+h2{
+  text-align: center;
+  margin-top: 40; 
+}
+p{
+    /* background-color: burlywood; */
+    /* background-image: url(image/tiger.jpg); */
+}
+.para2
+{
+    background-color: aquamarine;
+}
+#para3{
+    background-color: cadetblue;
+    font-size: small;
+    /* // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900 */
+} 
+.noto-sans-jp-para2 {
+      font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+}   
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+ section{
+  text-align: center;
+ }
+
+img{
+    /* float: left; */
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    /* border-style:double;
+    border-radius: 20px; */
+    /* border-color: brown;    */
+
+}
+#image1{
+    border-style: dashed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(186, 242, 242);
+  }
+  footer{
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+    margin-top: 20px;
+  }
+
+
